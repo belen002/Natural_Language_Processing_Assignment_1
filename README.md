@@ -10,9 +10,9 @@ This project focuses on **Amharic Natural Language Processing (NLP)** using the 
 |---:|---|---|
 | 1 | Beamlak Fekadu | UGR/8928/15 |
 | 2 | Bemnet Asseged | UGR/2591/15 |
-| 3 | Belen Berehanu | UGR/________/15 |
-| 4 | Etsub Nadew | UGR/________/15 |
-| 5 | Haset | UGR/________/15 |
+| 3 | Belen Berehanu | UGR/0379/15 |
+| 4 | Etsub Nadew | UGR/4283/15 |
+| 5 | Haset | UGR/4331/15 |
 
 ## Project Objectives
 
