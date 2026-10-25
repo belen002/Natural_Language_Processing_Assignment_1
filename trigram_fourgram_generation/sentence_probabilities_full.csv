@@ -1,0 +1,5 @@
+﻿sentence,MLE_bigram,MLE_trigram,MLE_fourgram,Laplace_fourgram,Interpolated
+ኢትዮጵያ በአፍሪካ ቀንድ ትገኛለች።,P=0 (unseen n-gram),P=0 (unseen n-gram),P=0 (unseen n-gram),-17.4778,-11.9581
+ትገኛለች ቀንድ በአፍሪካ ኢትዮጵያ።,P=0 (unseen n-gram),P=0 (unseen n-gram),P=0 (unseen n-gram),-23.2915,-17.4862
+አዲስ አበባ የኢትዮጵያ ዋና ከተማ ናት።,-12.8598,-8.9384,-7.7876,-25.0568,-8.8625
+ነገር ግን ይህ ብቻ አይደለም።,-8.6452,-6.9471,-7.0982,-17.441,-7.5846
