@@ -1,0 +1,11 @@
+﻿Model,Metric,Value,Dataset
+Unigram,Perplexity,1535.74,5 MiB GPAC sample
+Bigram,Perplexity,5998.44,5 MiB GPAC sample
+Trigram,Perplexity,14503.39,5 MiB GPAC sample
+Four-gram,Perplexity,18069.93,5 MiB GPAC sample
+Unigram,Top-1 Accuracy (%),2.23,5 MiB GPAC sample
+Unigram,Top-5 Accuracy (%),5.33,5 MiB GPAC sample
+Bigram,Top-1 Accuracy (%),11.18,5 MiB GPAC sample
+Bigram,Top-5 Accuracy (%),20.84,5 MiB GPAC sample
+Trigram,Top-1 Accuracy (%),17.26,5 MiB GPAC sample
+Trigram,Top-5 Accuracy (%),23.7,5 MiB GPAC sample
