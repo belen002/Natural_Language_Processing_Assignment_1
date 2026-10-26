@@ -11,6 +11,7 @@ Assignment tasks: **1.3** (top 10 n-grams, n = 3 and 4), **1.7** (sentence proba
 | `top10_fourgrams_full.csv` | Top 10 four-grams, full corpus |
 | `sentence_probabilities_full.csv` | log10 probability of test sentences under 5 models |
 | `generated_sentences_full.csv` | 15 generated sentences with a copied/new check |
+| `trigram_fourgram_app.sqlite` | Trigram/four-gram database for the app (17.5 MB) |
 
 ## Method
 
@@ -53,3 +54,17 @@ Trained on every 10th sentence of the full corpus (505,778 sentences); copying c
 | Four-gram | 5 (1 exact sentence) |
 
 As n increases, sentences become more fluent but less original: the four-gram model mostly replays corpus text because most three-word contexts were seen only once.
+
+## Database for the app (`trigram_fourgram_app.sqlite`)
+
+| Table | Columns | Rows |
+|---|---|---|
+| `trigrams` | w1, w2, w3, count | 237,755 |
+| `trigram_contexts` | w1, w2, outgoing | |
+| `fourgrams` | w1, w2, w3, w4, count | 64,662 |
+| `fourgram_contexts` | w1, w2, w3, outgoing | |
+| `info` | key, value (how the file was built) | |
+
+- Only n-grams seen at least **10 times** in the full corpus are kept, so the file fits GitHub's 25 MB upload limit.
+- `outgoing` = how often the context is followed by any word, counted on the full corpus **before** pruning, so probabilities stay exact: `P(w3 | w1 w2) = count / outgoing`.
+- A larger version (n-grams seen at least 3 times, 532 MB, 3,640,111 trigrams and 2,530,426 four-grams) is kept on Google Drive.
