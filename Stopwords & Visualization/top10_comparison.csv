@@ -1,0 +1,55 @@
+﻿n,ngram,count_before,count_after,change,status,in_top10_before,in_top10_after
+1,ነው,1166197,0,-1166197,removed (contains stopword),True,False
+1,ላይ,754597,0,-754597,removed (contains stopword),True,False
+1,ውስጥ,346289,0,-346289,removed (contains stopword),True,False
+1,ወደ,330973,0,-330973,removed (contains stopword),True,False
+1,እና,318783,0,-318783,removed (contains stopword),True,False
+1,ጋር,291521,0,-291521,removed (contains stopword),True,False
+1,ነበር,275023,0,-275023,removed (contains stopword),True,False
+1,ግን,271505,0,-271505,removed (contains stopword),True,False
+1,ጊዜ,244085,244085,0,kept,True,True
+1,ነገር,217662,217662,0,kept,True,True
+1,አንድ,192676,192676,0,kept,False,True
+1,ቤት,182002,182002,0,kept,False,True
+1,አቶ,169154,169154,0,kept,False,True
+1,ሰው,153032,153032,0,kept,False,True
+1,ምን,147540,147540,0,kept,False,True
+1,ሰዎች,137910,137910,0,kept,False,True
+1,በዚህ,134464,134464,0,kept,False,True
+1,በላይ,125540,125540,0,kept,False,True
+2,ዓ ም,104251,104253,2,kept,True,True
+2,ነገር ግን,44743,0,-44743,removed (contains stopword),True,False
+2,ዶ ር,35618,35618,0,kept,True,True
+2,ማለት ነው,32380,0,-32380,removed (contains stopword),True,False
+2,ብቻ ሳይሆን,32261,0,-32261,removed (contains stopword),True,False
+2,አዲስ አበባ,31355,31360,5,kept,True,True
+2,1 1,28958,29220,262,kept,True,True
+2,ብቻ ነው,24681,0,-24681,removed (contains stopword),True,False
+2,በአዲስ አበባ,24036,24036,0,kept,True,True
+2,ምክር ቤት,23902,23902,0,kept,True,True
+2,2 2,23661,23773,112,kept,False,True
+2,ጠቅላይ ሚኒስትር,19906,19906,0,kept,False,True
+2,የአዲስ አበባ,19659,19659,0,kept,False,True
+2,ይሁን እንጂ,19518,19522,4,kept,False,True
+3,እ ኤ አ,16708,16708,0,kept,True,True
+3,ዓ ም ኢሳት,9770,9770,0,kept,True,True
+3,ም ኢሳት ዜና,9698,9698,0,kept,True,True
+3,ቀን ዓ ም,7104,7105,1,kept,True,True
+3,ዓ ም ጀምሮ,6079,6085,6,kept,True,True
+3,2007 ዓ ም,5919,5919,0,kept,True,True
+3,2012 ዓ ም,5904,5904,0,kept,True,True
+3,ተወካዮች ምክር ቤት,5597,5598,1,kept,True,True
+3,2008 ዓ ም,5292,5292,0,kept,True,True
+3,በሌላ በኩል ደግሞ,5221,0,-5221,removed (contains stopword),True,False
+3,የአዲስ አበባ ከተማ,4898,4898,0,kept,False,True
+4,ዓ ም ኢሳት ዜና,9680,9680,0,kept,True,True
+4,ቀን 2008 ዓ ም,3863,3863,0,kept,True,True
+4,ቀን 2007 ዓ ም,3368,3368,0,kept,True,True
+4,ቀን 2010 ዓ ም,3329,3329,0,kept,True,True
+4,ቀን 2011 ዓ ም,3238,3238,0,kept,True,True
+4,ቀን 2012 ዓ ም,2877,2877,0,kept,True,True
+4,የአዲስ አበባ ከተማ አስተዳደር,2602,2602,0,kept,True,True
+4,2005 2005 ዓ ም,2482,2482,0,kept,True,True
+4,፳፻፭ ዓ ም ኢሳት,2099,2099,0,kept,True,True
+4,በ የኔ ሃሳብ ዓምድ,2081,0,-2081,removed (contains stopword),True,False
+4,፳፻፮ ዓ ም ኢሳት,1939,1939,0,kept,False,True
